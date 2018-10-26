@@ -88,7 +88,7 @@ footer a{
   justify-content: center;
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 500px){
 
   .wrapper{
     background-image: url("./../images/homebackground.jpg");
@@ -114,25 +114,28 @@ footer a{
   }
 
   h1{
-    font-size: 100px;
+    font-family: Montserrat;
+    font-size: 5rem;
+    font-weight: normal;
+    margin: 0;
   }
   .sal1{
     font-family: Montserrat;
-    font-size: 100px;
+    font-size: 5rem;
     color: white;
     grid-row: 5;
   }
 
   .sal2{
     font-family: Montserrat;
-    font-size: 100px;
+    font-size: 5rem;
     grid-row: 6;
     color: white;
     grid-column: span 3;
   }
 }
 
-@media only screen and (min-width: 2000px){
+@media only screen and (min-width: 1000px){
 
   .wrapper{
     grid-template-columns: auto auto auto auto auto auto;
