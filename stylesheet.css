@@ -1,9 +1,16 @@
-
+#skiplink {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+}
 
 h1 {
   font-family: Montserrat;
   font-size: 3rem;
   font-weight: normal;
+  margin: 0;
 }
 
 body{
