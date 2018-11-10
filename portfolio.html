@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ella Gazdecki - Portfolio</title>
   <link rel="shortcut icon" href="images/logo.png"/>
+  <link rel = "stylesheet" type = "text/css" href = "./css/default.css">
   <link rel = "stylesheet" type = "text/css" href = "./css/stylesheet.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
@@ -13,28 +15,30 @@
 
 
 <div class="wrapper">
-  <img src="images/logo.png" alt = "Ella Gazdecki's logo"/>
-  <h1>Portfolio</h1>
+  <div class="logo"><img src="images/logo.png" alt = "Ella Gazdecki's logo"/></div>
+  <div class="portfolioHeader"><h1>Portfolio</h1></div>
     <nav>
       <div class="navText"><a href = "index.html">home</a></div>
       <div class="navText"><a href = "bio.html">bio</a></div>
       <div class="navText"><a href = "portfolio.html" class="current">portfolio</a></div>
       <div class="navText"><a href = "contact.html">contact</a></div>
     </nav>
-</div>
+
 
 
 <!-- Each of these elements are clickable and go to a subject-specific page.
 Done with the intention of maintaining the site's simplicity.-->
-  <a href = "graphicdesign.html"><img src = "./images/graphicdesignicon.png" alt = "Graphic Design icon"/></a>
-  Graphic Design
-  <a href = "coding.html"><img src = "./images/codingicon.png" alt = "Coding icon"/></a>
-  Coding
-  <a href = "ux.html"><img src = "./images/uxicon.png" alt = "UX Design icon"/></a>
-  User Experience
+  <div class="portfolioWrapper">
+    <a href = "graphicdesign.html"><img src = "./images/graphicdesignicon.png" class="grafficDesign" alt = "Graphic Design icon"/></a>
 
-  <br>
-  <a href = "resume_gazdgabr.pdf">Download my resume</a>
+    <a href = "coding.html"><img src = "./images/codingicon.png" class="coding" alt = "Coding icon"/></a>
+
+    <a href = "ux.html"><img src = "./images/uxicon.png" class="UX" alt = "UX Design icon"/></a>
+
+  </div>
+
+  <div class="resumeLink"><a href = "resume_gazdgabr.pdf">Download my resume</a></div>
+</div>
 
   <footer>
     <a href = "https://www.facebook.com/ella.gazdecki" aria-label="Icon with link to Ella's Facebook"><i class="fab fa-facebook-f fa-3x"></i></a>
